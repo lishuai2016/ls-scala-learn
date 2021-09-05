@@ -7,6 +7,7 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object  WordCountFile {
   def main(args: Array[String]) {
+    System.setProperty("hadoop.home.dir", "D:\\hadoop\\hadoop-2.7.3")
     var masterUrl = "local"
     var inputPath = "D:\\opencode\\ls-scala-learn\\spark.txt"
     var outputPath = "D:\\opencode\\ls-scala-learn\\out"

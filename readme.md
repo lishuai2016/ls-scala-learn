@@ -38,3 +38,8 @@ hadoop.dll可以在github上下载：https://github.com/4ttty/winutils
 各个版本的hadoop.dll好像是通用的。
 
 # 4、java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+
+
+System.setProperty("hadoop.home.dir", "D:\\hadoop\\hadoop-2.7.3")
+
+参考：https://stackoverflow.com/questions/35652665/java-io-ioexception-could-not-locate-executable-null-bin-winutils-exe-in-the-ha

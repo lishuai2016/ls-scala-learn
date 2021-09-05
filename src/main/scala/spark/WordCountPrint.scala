@@ -4,6 +4,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object WordCountPrint {
   def main(args: Array[String]): Unit = {
+    System.setProperty("hadoop.home.dir", "D:\\hadoop\\hadoop-2.7.3")
     val conf = new SparkConf().setAppName("wordcount").setMaster("local[1]")
     val sc = new SparkContext(conf)
 
